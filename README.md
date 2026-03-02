@@ -26,18 +26,31 @@ Original Repo used and modified:
 
 ### Citations
 Private Memorization Editing: Turning Memorization into a Defense to Strengthen Data Privacy in Large Language Models has been accepted as ACL 2025 Main Paper.
-For more details about our method, the [preprint of our paper is available on arXiv](https://arxiv.org/abs/2506.10024)
+For more details about our method, [our paper is available here](https://aclanthology.org/2025.acl-long.810/)
 
 ```
-@misc{ruzzetti2025privatememorizationeditingturning,
-      title={Private Memorization Editing: Turning Memorization into a Defense to Strengthen Data Privacy in Large Language Models}, 
-      author={Elena Sofia Ruzzetti and Giancarlo A. Xompero and Davide Venditti and Fabio Massimo Zanzotto},
-      year={2025},
-      eprint={2506.10024},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2506.10024}, 
+@inproceedings{ruzzetti-etal-2025-private,
+    title = "Private Memorization Editing: Turning Memorization into a Defense to Strengthen Data Privacy in Large Language Models",
+    author = "Ruzzetti, Elena Sofia  and
+      Xompero, Giancarlo A.  and
+      Venditti, Davide  and
+      Zanzotto, Fabio Massimo",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.810/",
+    doi = "10.18653/v1/2025.acl-long.810",
+    pages = "16572--16592",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Large Language Models (LLMs) memorize, and thus, among huge amounts of uncontrolled data, may memorize Personally Identifiable Information (PII), which should not be stored and, consequently, not leaked. In this paper, we introduce Private Memorization Editing (PME), an approach for preventing private data leakage that turns an apparent limitation, that is, the LLMs' memorization ability, into a powerful privacy defense strategy. While attacks against LLMs have been performed exploiting previous knowledge regarding their training data, our approach aims to exploit the same kind of knowledge in order to make a model more robust. We detect a memorized PII and then mitigate the memorization of PII by editing a model knowledge of its training data. We verify that our procedure does not affect the underlying language model while making it more robust against privacy Training Data Extraction attacks. We demonstrate that PME can effectively reduce the number of leaked PII in a number of configurations, in some cases even reducing the accuracy of the privacy attacks to zero."
 }
 ```
 
 More info coming soon
+
